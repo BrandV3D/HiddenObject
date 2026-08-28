@@ -1,0 +1,26 @@
+Version 1.78 (Current)
+- IMPROVED: Ability to set AlwaysActive for containers (hint-objects)
+- IMPROVED: Objects list animation
+- IMPROVED: Small manual about puzzle creating in GIMP
+- FIXED: Proper folder name for Editor scripts
+
+
+Version 1.75
+- IMPROVED: Splash uses new Unity UI
+- IMPROVED: SimpleDialog paused game mode 
+- FIXED: Possible path-related issue in Import scripts
+- FIXED: Possible issues with scripts execution order
+
+Version 1.7
+- Fully migrated to C#
+- New powerful SimpleDialog
+- A lot of fixes and minor improvements
+
+Version 1.23
+-  Minor fixes/improvements
+
+Version 1.2
+-  Camera pan and zoom(pinch) added
+
+Version 1.1
+-  Updated for Unity 5

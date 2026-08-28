@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400002}
+  - component: {fileID: 114916218413469342}
+  m_Layer: 0
+  m_Name: ObjectsSettings_classic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdc5ceb5c43dd8479f66fc72169ca2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  silhouetteBased: 0
+  silhouetteScale: 1
+  centralElement: {fileID: 21300000, guid: 243076b34f065422095226ef7d196f5c, type: 3}
+  centralElementInitialRotation: -90
+  centralElementTargetRotation: 360
+  button_LeftPart: {fileID: 21300000, guid: 7985c0ad3e13c493e82ac4d605246d62, type: 3}
+  button_MiddlePart: {fileID: 21300004, guid: 7985c0ad3e13c493e82ac4d605246d62, type: 3}
+  button_RightPart: {fileID: 21300002, guid: 7985c0ad3e13c493e82ac4d605246d62, type: 3}
+  fontSize: 5
+  fontColor: {r: 0.9953347, g: 1, b: 0.66176474, a: 1}
+  fontQuality: 50
+  font: {fileID: 12800000, guid: a2d146ff03e3c4149bb9fc501bbf8683, type: 3}
+  movementPointsHolder: {fileID: 400000, guid: 76c2f568f486747f086cd77f452fc8e1, type: 2}
+  movementSpeed: 5
+  movementDistance: 10
+  scaleModifier: 100
+  invertedX: 0
+  invertedY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!114 &114916218413469342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d92e717cb3bc3f4e9ec5d20c5d21a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surroundingParticle: {fileID: 100000, guid: 37ae1bc4a48964c28a0f17874e07a2fe, type: 2}
+  finalScale: 0.5
+  movementDamping: 5
+  movementSpeed: 600
+  arriveDistance: 80
+  pathModifier: {x: 0.5, y: -0.3}

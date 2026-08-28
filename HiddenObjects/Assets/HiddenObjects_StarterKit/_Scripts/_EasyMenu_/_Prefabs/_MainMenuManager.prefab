@@ -1,0 +1,1662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 8227112}
+  m_Layer: 0
+  m_Name: ConfirmationDialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400002}
+  - component: {fileID: 11400002}
+  - component: {fileID: 8257442}
+  m_Layer: 0
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400004}
+  - component: {fileID: 11400004}
+  - component: {fileID: 8282030}
+  m_Layer: 0
+  m_Name: _MainMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400006}
+  - component: {fileID: 11400006}
+  - component: {fileID: 8223776}
+  m_Layer: 0
+  m_Name: SelectLevels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400008}
+  - component: {fileID: 11400008}
+  - component: {fileID: 8214060}
+  m_Layer: 0
+  m_Name: Options
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400010}
+  - component: {fileID: 11400010}
+  - component: {fileID: 8279108}
+  m_Layer: 0
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400012}
+  - component: {fileID: 11400012}
+  - component: {fileID: 8269868}
+  m_Layer: 0
+  m_Name: Help
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &166702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 497910}
+  - component: {fileID: 11480994}
+  - component: {fileID: 8259748}
+  m_Layer: 0
+  m_Name: SelectMode_Level1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 274.26562, y: 185.125, z: 800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400010}
+  - {fileID: 400006}
+  - {fileID: 400008}
+  - {fileID: 400012}
+  - {fileID: 400002}
+  - {fileID: 400000}
+  - {fileID: 497910}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &497910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -274.26562, y: -185.125, z: -800.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8214060
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8223776
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8227112
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8257442
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8259748
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166702}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8269868
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8279108
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8282030
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 01681e679ead3433881bb6ab8976200e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: 
+  size: {x: 230, y: 135}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 213, y: 120}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: ARE YOU SURE?
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 130, y: 20}
+    globalAligment: 10
+    position: {x: 50, y: 40}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: YES
+    icon: {fileID: 0}
+    type: 8
+    size: {x: 100, y: 50}
+    globalAligment: 0
+    position: {x: 10, y: 85}
+    startAnimation: 4
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: NO
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 100, y: 50}
+    globalAligment: 0
+    position: {x: 120, y: 85}
+    startAnimation: 4
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: CREDITS
+  size: {x: 300, y: 220}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 810, y: -140}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: AUTOR
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 0, y: 40}
+    startAnimation: 1
+    animationSpeed: 5
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Your name here'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 65}
+    globalAligment: 10
+    position: {x: 0, y: 65}
+    startAnimation: 1
+    animationSpeed: 4
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: SPECIAL THANKS
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 0, y: 90}
+    startAnimation: 1
+    animationSpeed: 3
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Name 1'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 0, y: 115}
+    startAnimation: 1
+    animationSpeed: 2
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Name 2'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 0, y: 140}
+    startAnimation: 1
+    animationSpeed: 1.5
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: BACK
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 0, y: 175}
+    startAnimation: 4
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40fe0e34ea6c0cd41b7748f5682077db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windows:
+  - {fileID: 11400010}
+  - {fileID: 11400006}
+  - {fileID: 11400008}
+  - {fileID: 11400012}
+  - {fileID: 11400002}
+  - {fileID: 11400000}
+  - {fileID: 11480994}
+  activeWindow: 0
+  autoIndex: 1
+  defaultScreenSize: {x: 800, y: 480}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: SELECT ROOM
+  size: {x: 530, y: 350}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 810, y: -140}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: 
+    icon: {fileID: 2800000, guid: dae04c18677284b63bfdb640e0f9dc1f, type: 3}
+    type: 0
+    size: {x: 100, y: 220}
+    globalAligment: 0
+    position: {x: 5, y: 25}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 6
+    locked: 1
+    lockImage: {fileID: 0}
+  - caption: 
+    icon: {fileID: 0}
+    type: 15
+    size: {x: 100, y: 220}
+    globalAligment: 0
+    position: {x: 110, y: 25}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: https://www.assetstore.unity3d.com/en/#!/content/18799
+    parameterFloat: 9
+    locked: 1
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: 
+    icon: {fileID: 0}
+    type: 15
+    size: {x: 100, y: 220}
+    globalAligment: 0
+    position: {x: 215, y: 25}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: https://www.assetstore.unity3d.com/en/#!/content/18869
+    parameterFloat: 10
+    locked: 1
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: 
+    icon: {fileID: 0}
+    type: 15
+    size: {x: 100, y: 220}
+    globalAligment: 0
+    position: {x: 320, y: 25}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: https://www.assetstore.unity3d.com/en/#!/content/18887
+    parameterFloat: 0
+    locked: 1
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: 
+    icon: {fileID: 0}
+    type: 15
+    size: {x: 100, y: 220}
+    globalAligment: 0
+    position: {x: 425, y: 25}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: https://www.assetstore.unity3d.com/en/#!/content/18888
+    parameterFloat: 0
+    locked: 1
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: Earn additional 1000 points to unlock next room !
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 350, y: 50}
+    globalAligment: 10
+    position: {x: 5, y: 265}
+    startAnimation: 1
+    animationSpeed: 5
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: CANCEL
+    icon: {fileID: 0}
+    type: 2
+    size: {x: 150, y: 50}
+    globalAligment: 3
+    position: {x: 0, y: 250}
+    startAnimation: 4
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: OPTIONS
+  size: {x: 300, y: 310}
+  scrollViewSize: {x: 300, y: 310}
+  position: {x: 526.5, y: 244.5}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: Simple
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 50}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Normal
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 105}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 3
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Beautiful
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 160}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 4
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Quality
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 100, y: 30}
+    globalAligment: 0
+    position: {x: 40, y: 25}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Resolutions_scroll
+    icon: {fileID: 0}
+    type: 21
+    size: {x: 150, y: 176}
+    globalAligment: 0
+    position: {x: 150, y: 50}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 25
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Resolution
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 100, y: 30}
+    globalAligment: 0
+    position: {x: 170, y: 25}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 25
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Fullscreen
+    icon: {fileID: 0}
+    type: 22
+    size: {x: 100, y: 30}
+    globalAligment: 0
+    position: {x: 100, y: 232}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 25
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: 
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 1, y: 1}
+    globalAligment: 0
+    position: {x: 20, y: 240}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 9
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: BACK
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 75, y: 262}
+    startAnimation: 4
+    animationSpeed: 300
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Better
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 78}
+    startAnimation: 0
+    animationSpeed: 300
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Good
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 133}
+    startAnimation: 0
+    animationSpeed: 300
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 2
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: Fantastic
+    icon: {fileID: 0}
+    type: 10
+    size: {x: 100, y: 25}
+    globalAligment: 0
+    position: {x: 20, y: 188}
+    startAnimation: 0
+    animationSpeed: 300
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 5
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: MAIN MENU
+  size: {x: 200, y: 275}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 213, y: 120}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 1
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: START
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 25, y: 40}
+    startAnimation: 1
+    animationSpeed: 10
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: OPTIONS
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 25, y: 95}
+    startAnimation: 2
+    animationSpeed: 10
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 2
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: HELP
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 25, y: 150}
+    startAnimation: 1
+    animationSpeed: 10
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 3
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: EXIT
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 25, y: 205}
+    startAnimation: 2
+    animationSpeed: 10
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 5
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: HELP
+  size: {x: 300, y: 300}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 810, y: -140}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: CONTROLS
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 40}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Touch hint-objects to show list'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 280, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 70}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Touch hidden-objects to collect them'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 280, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 100}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: HINTS
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 150}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Collect noticable objects first'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 280, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 180}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: '- Try to use hint-button if stuck'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 280, y: 20}
+    globalAligment: 10
+    position: {x: 20, y: 210}
+    startAnimation: 0
+    animationSpeed: 0
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: BACK
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 10
+    position: {x: 0, y: 250}
+    startAnimation: 4
+    animationSpeed: 2
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!114 &11480994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166702}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5826df738d1a2ec40910dda466514a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: LIVING ROOM
+  size: {x: 300, y: 320}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 810, y: -140}
+  globalAligment: 1
+  startAnimation: 3
+  animationSpeed: 1000
+  skin: {fileID: 11400000, guid: fcb67abced501514cad4c513834fe748, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 0
+  interactionSound: {fileID: 8300000, guid: 857b0477d641b44dba12c6e5f59de93b, type: 3}
+  Elements:
+  - caption: 'SELECT MODE:'
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 235, y: 50}
+    globalAligment: 10
+    position: {x: 20, y: 30}
+    startAnimation: 2
+    animationSpeed: 8
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 0
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: CLASSIC
+    icon: {fileID: 0}
+    type: 9
+    size: {x: 280, y: 50}
+    globalAligment: 10
+    position: {x: 20, y: 60}
+    startAnimation: 2
+    animationSpeed: 6
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 2
+    locked: 0
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: SILHOUETTES
+    icon: {fileID: 0}
+    type: 9
+    size: {x: 280, y: 50}
+    globalAligment: 10
+    position: {x: 20, y: 120}
+    startAnimation: 1
+    animationSpeed: 10
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 3
+    locked: 0
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: GETTING HARDER
+    icon: {fileID: 0}
+    type: 9
+    size: {x: 280, y: 50}
+    globalAligment: 10
+    position: {x: 20, y: 180}
+    startAnimation: 2
+    animationSpeed: 5
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 4
+    locked: 0
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+  - caption: BACK
+    icon: {fileID: 0}
+    type: 0
+    size: {x: 150, y: 50}
+    globalAligment: 3
+    position: {x: 0, y: 250}
+    startAnimation: 4
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 2800000, guid: 520dc5f40c7f4f34494235872a45b802, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100004}
+  m_IsPrefabParent: 1
